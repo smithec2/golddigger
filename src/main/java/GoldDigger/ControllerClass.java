@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ControllerClass {
 
-    @RequestMapping("/")//go to root or start page: MainMenu.html
+    @RequestMapping("/")
     public String root(Model model) {
         return "MainMenu";
-    }
+    }//go to root or start page: MainMenu.html
 }//end ControllerClass
