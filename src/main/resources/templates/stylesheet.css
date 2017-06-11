@@ -1,0 +1,92 @@
+.navbar {
+	width: 80%;
+	height: 16%;
+	margin: auto;
+	margin-top: 5px;
+	border: 0.5px solid blue;
+	text-align: center;
+}
+	
+	#logo {
+		width: 40%;
+		height: 100%;
+		border: 0.5px solid red;
+		margin-right: 50px;
+		display: inline-block;
+	}
+
+	#navService {
+		width: 10%;
+		height: 100%;
+		border: 0.5px solid red;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#navInfo {
+		width: 10%;
+		height: 100%;
+		border: 0.5px solid red;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#navContact {
+		width: 10%;
+		height: 100%;
+		border: 0.5px solid red;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+.serviceBody {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	margin-top: 10px;
+	vertical-align: top;
+	border: 0.2px solid blue;
+	text-align: center;
+}
+
+	#info {
+		width: 45%;
+		height: 100%;
+		border: 0.2px solid red;
+		vertical-align: top;
+		display: inline-block;		
+	}
+
+		#inst {
+			font-size: 35px;
+			margin-top: 30px;
+		}
+
+		#result {
+			font-size: 35px;
+			margin-top: 45px;
+		}
+
+	#serv {
+		width: 45%;
+		height: 100%;
+		border: 0.2px solid red;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+		.formItem {
+			margin-top: 10px;
+		}
+
+		.findvalue {
+			border: 0.2px solid green;
+			margin-top: 50px;
+		}
+
+.contactForm {
+	width: 80%;
+	border: 0.2px solid red;
+	margin: auto;
+	font-size: 20px;
+}
